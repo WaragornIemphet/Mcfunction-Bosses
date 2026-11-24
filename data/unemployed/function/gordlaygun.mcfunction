@@ -1,0 +1,3 @@
+execute at @e[tag=gord,limit=1] run summon armor_stand ~ ~ ~ {CustomName:[{text:GordLay888,color:light_purple}  ],Pose:{Body:[0f,344f,0f],LeftArm:[0f,360f,0f],RightArm:[270f,0f,0f]},ShowArms:1b,NoBasePlate:1b,DisabledSlots:2113343,Health:100,Invulnerable:1b,NoGravity:1b,Tags:["gordgun"],equipment:{mainhand:{id:bow,components:{item_model:"syn:luger"},count:1},head:{id:player_head,components:{profile:{name:GordLay888}}},chest:{id:diamond_chestplate,count:1},legs:{id:diamond_leggings,count:1},feet:{id:diamond_boots,count:1}},attributes:[{id:max_health,base:100f}]}
+
+execute at @e[tag=gord2,limit=1] run tag @e[tag=gord2,limit=1] add gordgunanim

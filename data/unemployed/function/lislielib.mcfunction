@@ -1,0 +1,5 @@
+execute at @e[tag=aka] run summon armor_stand ^ ^ ^ {Pose:{LeftArm:[0f,0f,0f],RightArm:[270f,0f,0f]},ShowArms:1b,NoBasePlate:1b,DisabledSlots:4144959,CustomName:[{text:"Liberator ",color:gray}],Health:150,Invulnerable:1b,NoGravity:1b,PersistenceRequired:1b,Silent:1b,Tags:["lisliestand"],equipment:{mainhand:{id:crossbow,components:{item_model:"syn:liberator"},count:1},head:{id:player_head,components:{profile:{name:Lislie_}},count:1},chest:{id:netherite_chestplate,count:1},legs:{id:netherite_leggings,count:1},feet:{id:netherite_boots,count:1}},drop_chances:{mainhand:0f,head:0f,chest:0f,legs:0f,feet:0f},attributes:[{id:max_health,base:150f}]}
+execute as @e[tag=lislie2,limit=1] at @s run tag @s add lislieanim
+execute as @e[tag=lisliestand,limit=1] at @s run tp @s ^ ^ ^ facing entity @p[distance=..20,gamemode=survival]
+scoreboard players add world LislieSkill1 1
+schedule function unemployed:lislielib1 5t

@@ -1,0 +1,1 @@
+execute as @e[tag=aim2] at @s run tp @s @p[gamemode=survival]

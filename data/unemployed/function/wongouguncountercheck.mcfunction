@@ -1,0 +1,1 @@
+execute as @e[tag=wongguncounter] at @s unless entity @s[tag=wongguncter] run function unemployed:wongouguncounterstance

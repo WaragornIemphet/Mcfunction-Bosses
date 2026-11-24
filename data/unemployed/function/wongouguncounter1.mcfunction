@@ -1,0 +1,9 @@
+execute as @e[tag=wongguncounter] at @s run tag @s add wongguncter
+execute at @e[tag=wongguncter] as @p[distance=..20,limit=1,sort=nearest] run tag @s add wongguntarcounter
+
+execute as @e[tag=wongguncter,limit=1] at @s run summon armor_stand ^ ^ ^ {Pose:{Head:[0f,58f,0f],RightArm:[0f,0f,64f]},ShowArms:1b,NoBasePlate:1b,DisabledSlots:4144959,CustomName:[{"text":"GUNend7821","color":"yellow"}],CustomNameVisible:1b,Health:600,Invulnerable:1b,NoGravity:1b,PersistenceRequired:1b,Silent:1b,Rotation:[288f,0],Tags:[gunp2stand],attributes:[{id:max_health,base:600f}],equipment:{mainhand:{id:netherite_sword,components:{custom_name:[{text:"Incomplete Light Bane",italic:false,color:yellow}],lore:[[{text:"Former Bane of the Light",italic:false,color:gold}],[{text:"Who ",italic:false,color:gold},{text:b,italic:false,color:gold},{text:r,italic:false,color:gold},{text:o,italic:false,color:gold},{text:u,italic:false,color:gold},{text:g,italic:false,color:gold},{text:h,italic:false,color:gold},{text:t,italic:false,color:gold},{text:" ",italic:false,color:gold},{text:"Divine punishment upon the sinners",italic:false,color:gold}]],enchantment_glint_override:false,enchantments:{bane_of_arthropods:5,fire_aspect:2,knockback:1,sharpness:5,smite:5,sweeping_edge:3,breach:2},unbreakable:{},item_model:"syn:incompletebane",custom_data:{trigger_hit:1}},count:1},head:{id:player_head,components:{profile:{name:PabloEskobaro}},count:1},chest:{id:iron_chestplate,count:1},legs:{id:chainmail_leggings,count:1},feet:{id:iron_boots,count:1}},drop_chances:{mainhand:0f,head:0f,chest:0f,legs:0f,feet:0f}}
+execute as @e[tag=wonggun,limit=1] at @s run tag @s add wonggun2p2skill
+execute as @e[tag=wonggun2,limit=1] at @s run tag @s add wonggun2p2skill
+execute as @e[tag=wonggun2,limit=1] at @s run data merge entity @s {Invulnerable:1b}
+
+schedule function unemployed:wongouguncounter2 1s

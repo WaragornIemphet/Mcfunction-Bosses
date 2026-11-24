@@ -1,0 +1,1 @@
+execute at @e[tag=gord] run tp @e[tag=gord2,limit=1] @p[distance=..128,sort=random,gamemode=!spectator]

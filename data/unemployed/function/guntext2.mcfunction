@@ -1,0 +1,3 @@
+execute at @e[tag=gun] run tellraw @a[distance=..128] [{"text":"<Server>","color":"gold"},{"text":" an endless amount of","color":"white"},{"text":" potion effects","color":"green"},{"text":" will surge through ","color":"white"},{"text":"GUNend7821's","color":"yellow"},{"text":" body.","color":"white"}]
+execute at @e[tag=gun] run playsound minecraft:ui.button.click voice @a[distance=..128] ~ ~ ~ 100 1 1
+schedule function unemployed:guntext3 3.5s

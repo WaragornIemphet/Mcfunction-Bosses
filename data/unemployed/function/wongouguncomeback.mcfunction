@@ -1,0 +1,1 @@
+execute as @e[tag=wonggun2,limit=1] at @s run tp @s @p[distance=..100]

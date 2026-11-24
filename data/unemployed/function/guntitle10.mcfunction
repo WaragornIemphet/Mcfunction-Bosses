@@ -1,0 +1,1 @@
+execute at @e[tag=gun] run title @a[distance=..128] subtitle [{"text":"THE RESTLESS GAMBLER","color":"green"}]

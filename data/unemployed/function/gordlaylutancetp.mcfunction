@@ -1,0 +1,8 @@
+execute at @e[tag=gord2p3] run tp @e[tag=gord2p3,limit=1] @p[distance=..64,sort=furthest,gamemode=!spectator]
+execute at @e[tag=gord2p3] run effect give @a[distance=..20] darkness 5 1 true
+
+execute at @e[tag=gord2p3,limit=6] run summon skeleton ~ ~ ~ {CustomName:["Cool Cock Clan"],CustomNameVisible:1b,Health:10,PersistenceRequired:1b,Silent:1b,Tags:["ccc"],equipment:{mainhand:{id:iron_shovel,components:{unbreakable:{}},count:1},head:{id:player_head,components:{profile:{properties:[{value:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2ZhZjZiNWViOGVmNmJkODM1NzQ3NGEwZDFjNjA5NzdkM2M5NTE5MDdmNWU2Y2FmNzM2ZDFkNjZkNWI5YWQzZjgifX19,name:textures}]},custom_name:[{text:"White Knight Head",italic:false,color:white}],lore:[[{text:KKK,italic:false,color:dark_red}]],food:{nutrition:5,saturation:3,can_always_eat:1b},consumable:{consume_seconds:2.5,on_consume_effects:[{type:apply_effects,effects:[{id:nausea,duration:200,amplifier:10}]}]}},count:1},chest:{id:leather_chestplate,components:{trim:{pattern:eye,material:redstone},dyed_color:16383998,unbreakable:{}},count:1},legs:{id:iron_leggings,components:{unbreakable:{}},count:1},feet:{id:leather_boots,components:{dyed_color:16383998,unbreakable:{}},count:1}},drop_chances:{mainhand:0f,head:0.5f,chest:0f,legs:0f,feet:0f},attributes:[{id:max_health,base:10f}]}
+execute at @e[tag=gord2p3,limit=1] run particle flame ~ ~1 ~ 0 0 0 0.5 100 force
+execute at @e[tag=gord2p3,limit=1] run playsound minecraft:entity.shulker.teleport voice @a[distance=..100] ^ ^ ^ 100 1 1
+execute at @e[tag=gord2p3,limit=1] run tellraw @a ["<Lutance> GET BACK HERE NIGGA"]
+execute at @e[tag=gord2p3,limit=1] run playsound minecraft:ui.button.click voice @a[distance=..128] ~ ~ ~ 100 1 1

@@ -1,0 +1,1 @@
+execute at @e[tag=lut] run title @a[distance=..128] subtitle [{"text":"COOL COCK CLAN","color":"white"}]

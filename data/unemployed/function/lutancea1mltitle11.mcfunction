@@ -1,0 +1,1 @@
+execute at @e[tag=aim] run title @a[distance=..128] subtitle [{"text":"THE LOST CHROMOSOME","color":"red"}]

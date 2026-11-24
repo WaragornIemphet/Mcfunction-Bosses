@@ -1,0 +1,1 @@
+execute at @e[tag=gord2p3] as @a[distance=..128] run title @s subtitle [{"text":"HEAD OF THE CLAN","color":"gray"}]

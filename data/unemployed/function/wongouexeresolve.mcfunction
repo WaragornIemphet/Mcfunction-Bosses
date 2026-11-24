@@ -1,0 +1,1 @@
+execute as @a[tag=exebleed,limit=1] at @s run tag @a remove exebleed

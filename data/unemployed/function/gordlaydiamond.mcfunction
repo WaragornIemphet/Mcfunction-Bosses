@@ -1,0 +1,3 @@
+execute as @e[tag=gordstart,limit=1] at @s run summon armor_stand ^-2 ^ ^ {Invisible:1b,DisabledSlots:1973790,Health:100,Invulnerable:1b,NoGravity:1b,PersistenceRequired:1b,Tags:["gorddiamond"],equipment:{head:{id:diamond_helmet,count:1},chest:{id:diamond_chestplate,count:1},legs:{id:diamond_leggings,count:1},feet:{id:diamond_boots,count:1}},drop_chances:{head:0f,chest:0f,legs:0f,feet:0f},attributes:[{id:max_health,base:100f}]}
+execute as @e[tag=gorddiamond,limit=1] at @s run particle minecraft:soul_fire_flame ~ ~ ~ 0 1 0 0.4 100 force
+execute as @e[tag=gordstart,limit=1] at @s run playsound block.anvil.place voice @a[distance=..128] ~ ~ ~ 100 2 1

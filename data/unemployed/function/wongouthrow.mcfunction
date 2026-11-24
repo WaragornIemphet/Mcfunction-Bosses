@@ -1,0 +1,5 @@
+execute as @e[tag=wongimp] at @s run tag @s remove wongimp
+execute as @e[tag=aurak,limit=1] at @s run scoreboard players add world KongkuraSkill 1
+execute as @e[tag=wong2,limit=1] at @s run summon armor_stand ^ ^1 ^1 {Pose:{RightArm:[351f,0f,327f]},CustomName:["Vanadium Spoon"],ShowArms:1b,Invisible:1b,NoBasePlate:1b,DisabledSlots:4144959,Health:100,Invulnerable:1b,NoGravity:1b,PersistenceRequired:1b,Silent:1b,Tags:["wongfly1"],equipment:{mainhand:{id:iron_axe,components:{item_model:"syn:spoon"},count:1}},drop_chances:{mainhand:0f},attributes:[{id:max_health,base:100f}]}
+execute as @e[tag=wongfly1,limit=1,sort=nearest] at @s run data modify entity @s Rotation set from entity @e[tag=wong2,limit=1] Rotation
+execute as @e[tag=wongfly1,limit=1,sort=nearest] at @s run tp @s ^ ^ ^ facing entity @p

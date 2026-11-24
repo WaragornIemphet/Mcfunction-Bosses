@@ -1,0 +1,3 @@
+execute at @e[tag=welite,limit=4] run summon skeleton ~ ~ ~ {CustomName:[{text:"Skeleton Royal Guard",color:aqua}],Health:100,PersistenceRequired:1b,Tags:["eliteguard"],equipment:{mainhand:{id:diamond_sword,count:1},offhand:{id:totem_of_undying,count:1},head:{id:diamond_helmet,count:1},chest:{id:diamond_chestplate,count:1},legs:{id:diamond_leggings,count:1},feet:{id:diamond_boots,count:1}},drop_chances:{mainhand:0f,offhand:0f,head:0f,chest:0f,legs:0f,feet:0f},attributes:[{id:max_health,base:100f}]}
+execute at @e[tag=welite,limit=4] run particle dust_color_transition{from_color:[0.0,0.7,1.0],to_color:[0.52,0.92,1.0],scale:2} ^ ^1 ^ 1 1 1 0.1 100 force
+scoreboard players set world KongkuraLogic 3

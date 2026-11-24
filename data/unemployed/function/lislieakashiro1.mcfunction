@@ -1,0 +1,2 @@
+execute at @e[tag=lislieakashiro] run particle dust_color_transition{from_color:[1.0,0.0,0.0],to_color:[1.0,0.0,0.0],scale:4} ^ ^0.25 ^ 0.2 0.55 0.2 0.1 100 force
+schedule function unemployed:lislieakashirovanish 5t

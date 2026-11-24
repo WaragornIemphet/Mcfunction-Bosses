@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ancient_debris",
+          "conditions": [
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "predicates": {
+                  "minecraft:custom_data": "{net_special_tool:1b}"
+                }
+              }
+            }
+          ],
+          "functions": [
+          ]
+        }
+      ]
+    }
+  ]
+}

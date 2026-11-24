@@ -1,0 +1,2 @@
+execute as @e[tag=wong,limit=1] at @s run tellraw @a[distance=..100] ["",{"text":"<Wongkura> ","color":"aqua"},"The pacing of this battle is completely unacceptable"]
+schedule function unemployed:wongshadow 4.5s
