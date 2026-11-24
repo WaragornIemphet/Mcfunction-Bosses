@@ -14,6 +14,8 @@ Developed by **Waragorn Iemphet** as one of my foundational game-scripting proje
 - **Entity-Based Anchors & Audio/VFX Choreography:** Spawns invisible marker entities with custom attributes (`max_health`, `NoGravity`, `Invulnerable`) alongside synchronized custom sound effects, boss music cues, particle bursts, and status effects.
 - **Custom Vanilla Loot Tables:** Overrides vanilla block drops (`ancient_debris`, `diamond_ore`, `deepslate_diamond_ore`, `diamond_block`, `oak_leaves`) to integrate boss progression into survival gameplay.
 
+**Want to inspect the code?** Open the **[Code Navigation Guide](NAVIGATION.md)** to jump directly to the main game loop, boss state machines, and skill scripts.
+
 ---
 
 ## Project Structure
